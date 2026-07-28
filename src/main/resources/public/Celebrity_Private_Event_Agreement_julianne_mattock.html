@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Whitelist Agreement · Julianne Mattock | Endorsco</title>
+  <meta name="description" content="Private guest whitelist agreement — Julianne Mattock, Guest Record JM-047, Ultra A-List Celebrity Execution package, Alexander J. Skarsgård 50th birthday, Värmdö estate, 25 August 2026." />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Birthday whitelist — dark + neutral + single gold accent */
+    body.nda-page {
+      --accent: #EBAC2B;
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --text: #e8e8e8;
+      --muted: #9ca3af;
+      --border: rgba(255, 255, 255, 0.1);
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--muted);
+      line-height: 1.65;
+      min-height: 100vh;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.nda-page::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(180deg, #0a0a0a 0%, #111111 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── Screen toolbar ── */
+    .nda-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0.65rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .nda-toolbar .actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+    .nda-toolbar button,
+    .nda-toolbar a.btn-outline {
+      font-family: inherit;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .nda-toolbar button {
+      border: none;
+      background: var(--accent);
+      color: #0a0a0a;
+    }
+
+    .nda-toolbar a.btn-outline {
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+    }
+
+    .nda-document {
+      position: relative;
+      z-index: 1;
+      max-width: 816px;
+      margin: 0 auto 3rem;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .nda-doc-bar {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0.625rem 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .nda-doc-bar strong { color: var(--text); font-weight: 600; }
+
+    .nda-page {
+      padding: 2.5rem 3rem 2.25rem;
+      position: relative;
+    }
+
+    .nda-page + .nda-page {
+      border-top: 1px solid var(--border);
+    }
+
+    .nda-page-num {
+      position: absolute;
+      top: 2.5rem;
+      right: 3rem;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      text-transform: none;
+      color: var(--muted);
+    }
+
+    .nda-header {
+      text-align: center;
+      padding-bottom: 1.75rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nda-header img {
+      height: 52px;
+      width: auto;
+      margin: 0 auto 1.5rem;
+      display: block;
+    }
+
+    .nda-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      background: transparent;
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    .nda-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 3vw, 1.65rem);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      text-transform: none;
+      color: var(--text);
+      line-height: 1.3;
+      max-width: 28rem;
+      margin: 0 auto 0.5rem;
+    }
+
+    .nda-subtitle {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin: 0 auto 1.25rem;
+      max-width: 30rem;
+    }
+
+    .nda-meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.65rem 2rem;
+      max-width: 34rem;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .nda-meta-item {
+      font-size: 0.8125rem;
+      line-height: 1.45;
+    }
+
+    .nda-meta-item dt {
+      font-size: 0.625rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.15rem;
+    }
+
+    .nda-meta-item dd {
+      color: var(--text);
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .section-heading {
+      font-family: var(--font-display);
+      font-size: 1.125rem;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0.01em;
+      color: var(--text);
+      margin: 0 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      page-break-after: avoid;
+    }
+
+    .section-heading:not(:first-child) { margin-top: 2rem; }
+
+    .subsection-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 1.25rem 0 0.5rem;
+      page-break-after: avoid;
+    }
+
+    .body-text {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: left;
+      margin-bottom: 0.85rem;
+    }
+
+    .label-caps {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 1.25rem 0 0.65rem;
+    }
+
+    .parties-box {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem;
+      margin: 1rem 0 1.25rem;
+    }
+
+    .parties-box p {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: left;
+      margin-bottom: 0.75rem;
+    }
+
+    .parties-box p:last-child { margin-bottom: 0; }
+
+    .parties-box strong { color: var(--text); }
+
+    .manifest-field input::placeholder { color: var(--muted); }
+
+    .recitals-block li::before {
+      background: var(--muted);
+    }
+
+    .therefore-clause {
+      font-size: 0.875rem;
+      font-weight: 500;
+      font-style: normal;
+      color: var(--text);
+      text-align: left;
+      padding: 0.85rem 1rem;
+      border-left: 2px solid var(--accent);
+      background: transparent;
+      border-radius: 0;
+      margin: 1rem 0 1.5rem;
+    }
+
+    .verification-strip {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .portrait-frame {
+      border: 1px solid var(--border);
+      background: var(--bg);
+    }
+
+    .portrait-caption,
+    .portrait-strip-label {
+      color: var(--muted);
+    }
+
+    .clause-list > li::before {
+      background: var(--muted);
+      opacity: 1;
+    }
+
+    .clause-list > li strong { color: var(--text); }
+
+    .clause-list.numbered > li::before {
+      color: var(--text);
+    }
+
+    .nda-table th {
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .nda-table td { color: var(--muted); background: var(--surface); }
+
+    .regulatory-notice,
+    .waiver-notice {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      line-height: 1.55;
+      letter-spacing: normal;
+      text-transform: none;
+      border-radius: 8px;
+      margin: 0.85rem 0;
+    }
+
+    .manifest-section-title {
+      color: var(--muted);
+    }
+
+    .manifest-field .value { color: var(--text); }
+
+    .package-card {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 1.25rem 1.35rem;
+      margin: 1rem 0 1.25rem;
+    }
+
+    .package-card-header {
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .package-tier-label {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+
+    .package-card-title {
+      font-family: var(--font-display);
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 0.35rem;
+    }
+
+    .package-card-meta {
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+
+    .package-inclusions {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .package-inclusions li {
+      font-size: 0.8125rem;
+      color: var(--muted);
+      padding: 0.35rem 0 0.35rem 1rem;
+      position: relative;
+    }
+
+    .package-inclusions li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--muted);
+    }
+
+    .package-inclusions li strong { color: var(--text); font-weight: 600; }
+
+    .venue-notice {
+      border-left: 2px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin: 0.85rem 0;
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+
+    .venue-notice strong { color: var(--text); }
+
+    .signature-card h4 {
+      color: var(--text);
+    }
+
+    .signature-canvas { border-color: var(--border); }
+    .signature-canvas.is-signed { border-color: var(--border); }
+
+    .signature-status { color: var(--muted); }
+    .signature-status:not(.is-empty) { color: var(--text); }
+
+    .recitals-block {
+      margin: 0.75rem 0 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .recitals-block li {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: left;
+      margin-bottom: 0.7rem;
+      padding-left: 1rem;
+      position: relative;
+    }
+
+    .verification-strip .body-text { margin-bottom: 1.1rem; text-align: center; }
+
+    .portraits {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      max-width: 16rem;
+      margin: 0 auto;
+    }
+
+    .portrait-single { max-width: 16rem; margin: 0 auto; }
+    .portrait-card { text-align: center; margin: 0; }
+
+    .portrait-frame {
+      aspect-ratio: 4 / 5;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 0.75rem;
+      border-radius: 8px;
+    }
+
+    .portrait-frame img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      z-index: 1;
+    }
+
+    .portrait-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: var(--muted);
+      line-height: 1.65;
+      padding: 1rem;
+    }
+
+    .portrait-caption,
+    .portrait-strip-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      text-transform: none;
+      color: var(--muted);
+    }
+
+    .portrait-strip-label {
+      text-align: center;
+      margin-bottom: 0.85rem;
+    }
+
+    .verification-strip--guest { margin-bottom: 0; }
+
+    .verification-strip--celebrant,
+    .reference-strip {
+      margin-top: 0;
+      margin-bottom: 1.75rem;
+    }
+
+    .reference-strip .body-text { margin-bottom: 1.1rem; text-align: center; }
+
+    .clause-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 1rem;
+    }
+
+    .clause-list > li {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: left;
+      margin-bottom: 0.65rem;
+      padding-left: 1.15rem;
+      position: relative;
+    }
+
+    .clause-list.numbered {
+      counter-reset: clause;
+      padding-left: 0;
+    }
+
+    .clause-list.numbered > li {
+      padding-left: 1.75rem;
+      counter-increment: clause;
+    }
+
+    .table-wrap {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 0.85rem 0 1rem;
+    }
+
+    .nda-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+    }
+
+    .nda-table th,
+    .nda-table td {
+      padding: 0.65rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nda-table th {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .nda-table tbody tr:last-child td { border-bottom: none; }
+    .nda-table tbody tr:nth-child(even) td { background: rgba(255, 255, 255, 0.02); }
+
+    .manifest-card {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 1.25rem 1.35rem;
+      margin: 0.85rem 0 1.25rem;
+    }
+
+    .manifest-section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: none;
+      margin: 1rem 0 0.65rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .manifest-section-title:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .manifest-field {
+      display: grid;
+      grid-template-columns: 11rem 1fr;
+      gap: 0.5rem 1rem;
+      align-items: baseline;
+      font-size: 0.875rem;
+      margin-bottom: 0.55rem;
+    }
+
+    .manifest-field .label { color: var(--muted); font-weight: 500; }
+
+    .manifest-field input,
+    .manifest-field input[type="date"] {
+      width: 100%;
+      font-family: inherit;
+      font-size: 0.875rem;
+      padding: 0.4rem 0.55rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      color-scheme: dark;
+    }
+
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 1rem;
+      margin: 0.65rem 0;
+    }
+
+    .checkbox-grid label {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.45rem;
+      font-size: 0.8125rem;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .checkbox-grid input {
+      margin-top: 0.2rem;
+      accent-color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .signature-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-top: 1.75rem;
+      page-break-inside: avoid;
+    }
+
+    @media (min-width: 720px) {
+      .signature-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    }
+
+    .signature-card {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 1.1rem 1.25rem 1.25rem;
+    }
+
+    .signature-card h4 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: none;
+      margin-bottom: 0.85rem;
+    }
+
+    .signature-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .signature-date-field {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.85rem;
+      font-size: 0.8125rem;
+    }
+
+    .signature-date-field input {
+      font-family: inherit;
+      font-size: 0.8125rem;
+      padding: 0.4rem 0.55rem;
+      border-radius: 8px;
+    }
+
+    .signature-print-name {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      margin-top: 0.5rem;
+    }
+
+    .signature-line {
+      border-top: 1px solid var(--border);
+      padding-top: 2.5rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+    }
+
+    .signature-note {
+      font-size: 0.6875rem;
+      font-style: italic;
+      margin-top: 0.3rem;
+      line-height: 1.45;
+    }
+
+    .signature-date {
+      margin-top: 1.1rem;
+      font-size: 0.8125rem;
+    }
+
+    .signature-date .line {
+      display: inline-block;
+      border-bottom: 1px solid var(--border);
+      min-width: 8rem;
+      margin-left: 0.25rem;
+    }
+
+    .signature-card--guest h4 { margin-bottom: 0.65rem; }
+
+    .signature-pad-wrap {
+      position: relative;
+      margin-bottom: 0.65rem;
+    }
+
+    .signature-canvas {
+      display: block;
+      width: 100%;
+      height: 120px;
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      cursor: crosshair;
+      touch-action: none;
+    }
+
+    .signature-canvas.is-signed {
+      border-style: solid;
+      border-color: var(--border);
+    }
+
+    .signature-actions button {
+      font-family: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .signature-actions button:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .signature-hint {
+      font-size: 0.6875rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .signature-status {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      text-transform: none;
+      color: var(--muted);
+    }
+
+    .signature-status.is-empty { color: var(--muted); }
+
+    .signature-date-field {
+      color: var(--muted);
+    }
+
+    .signature-date-field input {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .signature-print-name {
+      color: var(--text);
+    }
+
+    .signature-line {
+      color: var(--text);
+    }
+
+    .signature-note {
+      color: var(--muted);
+    }
+
+    .signature-date {
+      color: var(--muted);
+    }
+
+    .nda-footer {
+      border-top: 1px solid var(--border);
+      font-size: 0.6875rem;
+      color: var(--muted);
+      text-transform: none;
+      letter-spacing: normal;
+    }
+
+    .page-break { page-break-before: always; }
+
+    @media print {
+      body.nda-page::before { position: absolute; }
+      .nda-toolbar { display: none !important; }
+      .no-print { display: none !important; }
+      .signature-canvas { border-style: solid; border-color: rgba(255,255,255,0.25); }
+      .nda-document {
+        max-width: none;
+        margin: 0;
+        border: none;
+        box-shadow: none;
+      }
+      .nda-doc-bar { padding: 0.5rem 0.75in; }
+      .nda-page { padding: 0.55in 0.75in 0.65in; }
+      .nda-page-num { top: 0.55in; right: 0.75in; }
+      .page-break { page-break-before: always; }
+      .section-heading, .subsection-title { page-break-after: avoid; }
+      .portraits, .signature-grid, .table-wrap, .manifest-card, .package-card { page-break-inside: avoid; }
+    }
+
+    @media (max-width: 640px) {
+      .nda-doc-bar, .nda-page { padding-left: 1.25rem; padding-right: 1.25rem; }
+      .nda-meta-grid { grid-template-columns: 1fr; }
+      .portraits, .signature-grid, .checkbox-grid { grid-template-columns: 1fr; }
+      .manifest-field { grid-template-columns: 1fr; gap: 0.15rem; }
+      .nda-page-num { display: none; }
+    }
+  </style>
+</head>
+<body class="nda-page">
+
+  <div class="nda-toolbar">
+    <span class="nda-doc-bar" style="padding:0;border:none;background:transparent;font-size:0.75rem;">
+      Birthday Whitelist · <strong>Julianne Mattock</strong> · Guest Record JM-047
+    </span>
+    <div class="actions">
+      <button type="button" id="print-document">Save as PDF / Print</button>
+    </div>
+  </div>
+
+  <article class="nda-document">
+
+    <div class="nda-doc-bar">
+      <span>Prepared for <strong>Julianne Mattock</strong></span>
+      <span>Agreement dated 29 July 2026 · Event 25 August 2026</span>
+    </div>
+
+    <!-- PAGE 1 -->
+    <section class="nda-page">
+      <span class="nda-page-num">Page 1 of 5</span>
+
+      <header class="nda-header">
+        <img src="/images/logo.svg" alt="Endorsco Booking Agency" />
+        <div class="nda-badge">Endorsco Birthday Whitelist · August 25, 2026</div>
+        <h1 class="nda-title">Birthday Whitelist Agreement &amp; Entry Waiver</h1>
+        <p class="nda-subtitle">Alexander J. Skarsgård · 50th Birthday · Private Archipelago Estate, Värmdö</p>
+        <dl class="nda-meta-grid">
+          <div class="nda-meta-item">
+            <dt>Guest record</dt>
+            <dd>JM-047 · Whitelist confirmed</dd>
+          </div>
+          <div class="nda-meta-item">
+            <dt>Event date</dt>
+            <dd>Tuesday, 25 August 2026</dd>
+          </div>
+          <div class="nda-meta-item">
+            <dt>Guest package</dt>
+            <dd>Ultra A-List Celebrity Execution</dd>
+          </div>
+          <div class="nda-meta-item">
+            <dt>Agreement date</dt>
+            <dd>Wednesday, 29 July 2026</dd>
+          </div>
+        </dl>
+      </header>
+
+      <h2 class="section-heading">Welcome</h2>
+      <p class="body-text">
+        Welcome, Julianne. You&rsquo;re on the private whitelist for Alexander J. Skarsgård&rsquo;s 50th birthday in Stockholm on <strong>25 August 2026</strong>.
+        The guest list is intentionally small — close friends, family, and a limited circle of industry guests — and every name is personally approved by Alexander and the Endorsco team.
+      </p>
+      <p class="body-text">
+        Because Alexander is a public figure, the evening is run with the same discretion you&rsquo;d expect at an A-list private celebration: controlled entry, no press, and strict confidentiality.
+        You have selected <strong>Option 2 — Ultra A-List Celebrity Execution</strong> for your Australia ↔ Stockholm journey and on-site handling.
+        This agreement sets out what that means for you as a guest. It takes effect on <strong>29 July 2026</strong> (the &ldquo;Effective Date&rdquo;).
+      </p>
+
+      <p class="label-caps">Your approved guest package</p>
+      <div class="package-card">
+        <div class="package-card-header">
+          <p class="package-tier-label">Option 2 · Confirmed 29 July 2026</p>
+          <h3 class="package-card-title">Ultra A-List Celebrity Execution</h3>
+          <p class="package-card-meta">Total allocation · <strong style="color: var(--text);">USD 45,000</strong> · Guest Record JM-047</p>
+        </div>
+        <ul class="package-inclusions">
+          <li><strong>Flights:</strong> Premium business → first hybrid, Australia ↔ Stockholm (Qatar / Emirates / SAS priority routing)</li>
+          <li><strong>Stay:</strong> Ultra suite block — 5 nights, Grand Hôtel Stockholm waterfront</li>
+          <li><strong>Ground:</strong> Full chauffeur retainer (10-hour daily standby · airport, event, and night coverage)</li>
+          <li><strong>Access:</strong> Front-tier gala seating · enhanced invitation positioning at the Event</li>
+          <li><strong>Guest services:</strong> Lead specialist + backup support · real-time itinerary control (AEST ↔ CET)</li>
+          <li><strong>Security:</strong> Low-profile arrival strategy · Securitas Event Services AB perimeter · Close Protection Scandinavia AB for VIP movements</li>
+          <li><strong>Experiences:</strong> Archipelago yacht charter · Michelin-tier dining · luxury spa suite</li>
+        </ul>
+      </div>
+
+      <p class="label-caps">The parties</p>
+      <div class="parties-box">
+        <p><strong>1. Endorsco Bookings AB</strong> (&ldquo;Host&rdquo;), a Swedish event management company organizing the birthday celebration for Alexander J. Skarsgård (&ldquo;Celebrant&rdquo;) on 25 August 2026; and</p>
+        <p><strong>2. Julianne Mattock</strong> (&ldquo;Guest&rdquo;), a U.S. citizen traveling from Australia to attend the celebration.</p>
+      </div>
+
+      <p class="label-caps">A few things to note</p>
+      <ul class="recitals-block">
+        <li>The Host is producing a closed, invitation-only birthday celebration (the &ldquo;Event&rdquo;) on <strong>25 August 2026</strong> at a <strong>private archipelago manor estate on Värmdö</strong> (Stockholm inner archipelago) — a walled waterfront property hired exclusively for the evening. The exact estate name, dock, and access route will be shared with confirmed guests only, by secure message, no earlier than 48 hours before the Event.</li>
+        <li>You have been approved as a named whitelisted guest (Guest Record <strong>JM-047</strong>) under <strong>Option 2 — Ultra A-List Celebrity Execution</strong>, traveling from Australia. This invitation is for you alone unless the Host has confirmed a plus-one in writing.</li>
+        <li>On-site security is contracted to <strong>Securitas Event Services AB</strong> (venue perimeter, screening, and credentials) and <strong>Close Protection Scandinavia AB</strong> (executive protection for the Celebrant and Ultra-tier guest movements). Paparazzi interest around Alexander&rsquo;s milestone birthday makes confidentiality and arrival discretion essential.</li>
+      </ul>
+
+      <p class="therefore-clause">
+        With that in mind, the parties agree to the following terms:
+      </p>
+
+      <h2 class="section-heading">Your guest photo</h2>
+      <div class="verification-strip verification-strip--guest">
+        <p class="portrait-strip-label">Whitelist credential · Guest Record JM-047</p>
+        <p class="body-text">Your passport photo must match the guest named on this agreement. At check-in, security will verify your identity against Guest Record <strong>JM-047</strong> and issue a personal wristband for the evening. This credential is non-transferable.</p>
+        <div class="portraits portrait-single">
+          <figure class="portrait-card">
+            <div class="portrait-frame">
+              <div class="portrait-placeholder">Place Guest<br />Passport Photo<br />Here</div>
+              <img src="2.jpg" alt="Julianne Mattock passport photo" onerror="this.remove()" />
+            </div>
+            <figcaption class="portrait-caption">Julianne Mattock · Guest Record JM-047</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="nda-page page-break">
+      <span class="nda-page-num">Page 2 of 5</span>
+
+      <h2 class="section-heading">The birthday honoree</h2>
+      <div class="reference-strip verification-strip--celebrant">
+        <p class="portrait-strip-label">Celebrant reference · Alexander J. Skarsgård</p>
+        <p class="body-text">For reference only — this portrait is kept separate from your guest photo and is used by the Host team at the venue.</p>
+        <div class="portraits portrait-single">
+          <figure class="portrait-card">
+            <div class="portrait-frame">
+              <div class="portrait-placeholder">Place Celebrant<br />Official Photo<br />Here</div>
+              <img src="1.jpg" alt="Alexander J. Skarsgård official photo" onerror="this.remove()" />
+            </div>
+            <figcaption class="portrait-caption">Alexander J. Skarsgård · Celebrant</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <h2 class="section-heading">Entry &amp; whitelist details</h2>
+
+      <h3 class="subsection-title">Your invitation</h3>
+      <p class="body-text">Admission is by named whitelist only, managed by Endorsco Bookings AB on Alexander&rsquo;s behalf. The Event is not open to the public and will not appear on any public calendar.</p>
+      <ul class="clause-list">
+        <li><strong>Passport &amp; ID:</strong> Bring your physical, valid U.S. passport. The name must match Julianne Mattock exactly. Digital copies, screenshots, or third-party collection are not accepted.</li>
+        <li><strong>No plus-ones:</strong> Your whitelist place is personal. Partners, assistants, agents, or companions may not enter unless pre-approved in writing by the Host.</li>
+        <li><strong>Travel:</strong> You confirm a valid U.S. passport and compliance with Schengen entry rules for Sweden (including any visa or travel-authorization requirements in force when you travel).</li>
+        <li><strong>Venue details:</strong> The Event takes place at a private archipelago manor on Värmdö. The exact estate name and access route are not public. Confirmed guests receive directions via <strong>booking@endorscobookings.com</strong> or their Close Protection Scandinavia liaison no earlier than 48 hours before arrival.</li>
+      </ul>
+
+      <h3 class="subsection-title">Venue &amp; arrival window</h3>
+      <div class="venue-notice">
+        <strong>Venue type (disclosed):</strong> Private hired archipelago manor estate · Värmdö, Stockholm inner archipelago — walled waterfront property with private dock access, main-house dining, terrace, and guest pavilion.<br />
+        <strong>Address (withheld):</strong> Released by secure message only, no earlier than 48 hours before the Event. Ultra-package guests may be routed via private chauffeur or approved water transfer where applicable.
+      </div>
+      <p class="body-text">Guest check-in runs <strong>19:00 – 20:30 CET</strong> on 25 August 2026 at the estate gatehouse. Late arrivals may be held at the outer perimeter until escorted inside by Securitas or your Close Protection Scandinavia liaison.</p>
+
+      <h3 class="subsection-title">Security partners</h3>
+      <p class="body-text">Security for the Event is managed under contract with:</p>
+      <ul class="clause-list">
+        <li><strong>Securitas Event Services AB</strong> — outer perimeter, guest credentialing, device pouching, walk-through screening, bag inspection, and coordination with Swedish police if required.</li>
+        <li><strong>Close Protection Scandinavia AB</strong> — executive protection for Alexander J. Skarsgård, low-profile Ultra-tier arrivals, and escort between chauffeur drop-off and the guest pavilion.</li>
+      </ul>
+      <p class="body-text">As an Ultra A-List package guest, your full chauffeur retainer and Close Protection Scandinavia arrival coordination are included in Option 2. Follow their routing instructions rather than navigating independently to the archipelago access point.</p>
+
+      <h3 class="subsection-title">On-site screening</h3>
+      <p class="body-text">After passport verification at the gatehouse, standard celebrity-event security applies:</p>
+      <ol class="clause-list numbered">
+        <li><strong>Personal devices:</strong> Mobile phones, tablets, smartwatches, and cameras may be sealed or placed in signal-blocking pouches (e.g. Yondr-style lockers) for the duration of the Event. Emergency contact with security can be made through staff at any time.</li>
+        <li><strong>Screening:</strong> Walk-through metal detection, bag inspection, and possible wand screening — the same baseline used at private Hollywood and Stockholm premiere events.</li>
+        <li><strong>Prohibited items:</strong> Standalone cameras, telephoto lenses, audio recorders, drones, outside alcohol, professional recording equipment, and items restricted under Swedish law (<em>Knivlagen</em>).</li>
+        <li><strong>Perimeter:</strong> Unauthorised photography, drones, or approach to the estate from public waterways or access roads may be handled by Securitas Event Services AB and, where necessary, Swedish police.</li>
+      </ol>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="nda-page page-break">
+      <span class="nda-page-num">Page 3 of 5</span>
+
+      <h2 class="section-heading">During the celebration</h2>
+
+      <h3 class="subsection-title">Dress &amp; atmosphere</h3>
+      <p class="body-text">The Event is an elegant evening celebration. Cocktail attire or black-tie optional is appropriate — think polished Stockholm dinner party rather than red-carpet press line. The Host may operate an official photographer for private recap use only; guest photography remains subject to the privacy rules below.</p>
+
+      <h3 class="subsection-title">Guest conduct</h3>
+      <p class="body-text">Alexander has invited people he trusts to share a personal milestone. Many guests value privacy as much as he does. Please treat the evening accordingly:</p>
+      <ul class="clause-list">
+        <li><strong>Personal boundaries:</strong> Do not pursue autographs, selfies, interviews, or intrusive questions with Alexander or other guests unless they clearly invite it.</li>
+        <li><strong>Other attendees:</strong> You may meet actors, directors, and industry colleagues. Do not identify, photograph, or discuss other guests with media, online accounts, or third parties after the Event.</li>
+        <li><strong>Security &amp; close protection:</strong> Directions from Close Protection Scandinavia AB and Endorsco floor managers regarding crowd flow, seating, and movement are final.</li>
+        <li><strong>Removal:</strong> Harassment, intoxicated disruption, or repeated privacy breaches may result in immediate escort from the venue and revocation of whitelist status.</li>
+      </ul>
+
+      <h3 class="subsection-title">Venue areas</h3>
+      <p class="body-text">Remain in guest-facing spaces — main-house dining salon, terrace, garden, guest pavilion, and dock reception area. Service wings, staff quarters, private residential floors, and zones marked <em>Ej obehöriga</em> require an Endorsco escort.</p>
+
+      <h3 class="subsection-title">Arrival logistics · Ultra package</h3>
+      <p class="body-text">Your Option 2 chauffeur retainer covers airport, hotel, and estate routing on 25 August 2026. Use the pre-arranged channels below rather than independent arrivals:</p>
+
+      <div class="table-wrap">
+        <table class="nda-table">
+          <thead>
+            <tr>
+              <th>Transport</th>
+              <th>Drop-off / pick-up</th>
+              <th>Included in package</th>
+              <th>Hours (25 Aug 2026)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Full chauffeur retainer</td>
+              <td>ARN · Grand Hôtel · estate gatehouse</td>
+              <td>Option 2 · Ultra A-List</td>
+              <td>10-hour standby</td>
+            </tr>
+            <tr>
+              <td>Close Protection Scandinavia escort</td>
+              <td>Private lane · archipelago access road</td>
+              <td>Option 2 · Ultra A-List</td>
+              <td>19:00 – 20:30 CET</td>
+            </tr>
+            <tr>
+              <td>Approved water transfer</td>
+              <td>Private dock (if routed by liaison)</td>
+              <td>Option 2 · on request</td>
+              <td>By appointment</td>
+            </tr>
+            <tr>
+              <td>Valet (approved vehicles)</td>
+              <td>Estate inner courtyard</td>
+              <td>Event courtesy</td>
+              <td>18:30 – 03:00 CET</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="body-text">Ultra-tier guests should not use rideshare apps to the estate perimeter. Guest liaison: <strong>booking@endorscobookings.com</strong> · <strong>+44-7351-271379</strong>.</p>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="nda-page page-break">
+      <span class="nda-page-num">Page 4 of 5</span>
+
+      <h2 class="section-heading">Food, drinks &amp; dietary notes</h2>
+
+      <h3 class="subsection-title">Bar &amp; hospitality</h3>
+      <p class="body-text">The evening includes curated Nordic dining and a premium hosted bar operated under the Swedish Alcohol Act (<em>Alkohollagen</em>). Service staff are trained for private celebrity events:</p>
+      <ul class="clause-list">
+        <li><strong>Responsible service:</strong> Alcohol may be withheld from any guest who appears impaired.</li>
+        <li><strong>Hosted bar:</strong> Wine, champagne, and spirits are served by staff — not as unattended open bottles or self-pour stations.</li>
+        <li><strong>Getting home:</strong> Do not drive after drinking (Swedish limit: 0.2 promille). Complimentary discreet taxis or pre-arranged car service can be organized through guest services.</li>
+      </ul>
+
+      <h3 class="subsection-title">Allergens &amp; dietary needs</h3>
+      <p class="body-text">Food is prepared by professional Nordic caterers. Kitchens may handle nuts, dairy, gluten, soy, and shellfish in the same space.</p>
+      <div class="regulatory-notice">Please note: nuts, dairy, gluten, soy, and shellfish are processed on-site.</div>
+      <p class="body-text">Let us know about any serious allergies in your guest details below. When in doubt, check with catering staff before eating.</p>
+
+      <h2 class="section-heading">Privacy &amp; confidentiality</h2>
+
+      <h3 class="subsection-title">Absolute media blackout</h3>
+      <p class="body-text">This is a private family-and-friends milestone, not a promotional appearance. Everything about the Event is confidential — including the venue, guest list, seating, conversations, gifts, and anything you see or hear involving Alexander or other attendees.</p>
+      <ul class="clause-list">
+        <li><strong>No phones or posting:</strong> Do not live-stream, post, or share photos, video, audio, location data, or commentary on Instagram, TikTok, Snapchat, X, WhatsApp status, or any other platform — including &ldquo;deleted later&rdquo; or close-friends stories.</li>
+        <li><strong>No press or paparazzi:</strong> Do not tip, sell, or share information with media, fan accounts, paparazzi, or outlets such as TMZ, Page Six, or <em>Aftonbladet</em>.</li>
+        <li><strong>Location secrecy:</strong> Do not geo-tag, share dock coordinates, or reveal the Värmdö estate location during or after the Event.</li>
+        <li><strong>Consequences:</strong> Breach may result in liquidated damages of not less than USD 250,000 per violation, reasonable legal fees, and injunctive relief under Swedish law — standard protection for high-profile private events of this kind.</li>
+      </ul>
+
+      <h3 class="subsection-title">Official event photography</h3>
+      <p class="body-text">Only the Host&rsquo;s approved photographers and filmmakers may record the Event. By attending, you grant a non-exclusive license for your likeness and voice to appear in private, non-commercial recap materials and internal archives only — not for advertising, resale, or public release without separate consent.</p>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="nda-page page-break">
+      <span class="nda-page-num">Page 5 of 5</span>
+
+      <h2 class="section-heading">Liability &amp; legal terms</h2>
+
+      <h3 class="subsection-title">Travel &amp; event risks</h3>
+      <p class="body-text">You are traveling internationally to attend a private high-profile celebration with executive security, controlled entry, and other public figures in attendance. You accept the ordinary risks of long-haul travel, private events, and large gatherings in a Stockholm venue.</p>
+
+      <h3 class="subsection-title">Release of claims</h3>
+      <p class="body-text">To the extent permitted by law, you release Endorsco Bookings AB, Alexander J. Skarsgård, the venue, organizers, Securitas Event Services AB, Close Protection Scandinavia AB, and their subcontractors from claims arising from ordinary negligence in connection with the Event.</p>
+
+      <div class="waiver-notice">
+        You agree not to bring legal action for personal injury, property loss, or financial damages arising from ordinary operational negligence at the Event.
+      </div>
+
+      <p class="body-text">This does not limit liability for gross negligence (<em>grov vårdslöshet</em>) or willful misconduct under Swedish law, nor any rights that cannot be waived under mandatory Swedish or EU consumer-protection rules.</p>
+
+      <h3 class="subsection-title">Property damage</h3>
+      <p class="body-text">If you cause damage to the venue, equipment, or furnishings through misconduct or negligence, you agree to cover repair and replacement costs.</p>
+
+      <h3 class="subsection-title">Governing law</h3>
+      <p class="body-text">This agreement is governed by Swedish law. Any disputes will be handled by the Stockholm District Court (<em>Stockholms tingsrätt</em>).</p>
+
+      <h2 class="section-heading">Your guest details</h2>
+      <p class="body-text">Complete the manifest below so guest services can activate Guest Record <strong>JM-047</strong>, coordinate your Stockholm arrival, and brief security. Submit by <strong>5 August 2026</strong>.</p>
+
+      <div class="manifest-card">
+        <div class="manifest-field">
+          <span class="label">Guest record</span>
+          <span class="value">JM-047</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Guest package</span>
+          <span class="value">Ultra A-List Celebrity Execution · Option 2</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Package total</span>
+          <span class="value">USD 45,000 · Confirmed 29 July 2026</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Full name</span>
+          <span class="value">Julianne Mattock</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Citizenship</span>
+          <span class="value">United States of America</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Flying from</span>
+          <span class="value">Australia</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Expected arrival (ARN)</span>
+          <input type="date" name="arrival_date" value="2026-08-24" aria-label="Expected arrival date at Stockholm Arlanda" />
+        </div>
+        <div class="manifest-field">
+          <span class="label">Accommodation</span>
+          <span class="value">Grand Hôtel Stockholm · Waterfront ultra suite (5 nights)</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Security liaison</span>
+          <span class="value">Close Protection Scandinavia AB · assigned pre-arrival</span>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Passport number</span>
+          <input type="text" name="passport" placeholder="Enter passport number" autocomplete="off" />
+        </div>
+        <div class="manifest-field">
+          <span class="label">Mobile number</span>
+          <input type="tel" name="mobile" placeholder="+61 or +1 (with country code)" autocomplete="tel" />
+        </div>
+        <div class="manifest-field">
+          <span class="label">Email</span>
+          <input type="email" name="email" placeholder="guest@email.com" autocomplete="email" />
+        </div>
+
+        <p class="manifest-section-title">Dietary preferences &amp; allergies</p>
+        <div class="checkbox-grid">
+          <label><input type="checkbox" /> Nut allergies (severe)</label>
+          <label><input type="checkbox" /> Shellfish / seafood allergies</label>
+          <label><input type="checkbox" /> Gluten intolerance / celiac</label>
+          <label><input type="checkbox" /> Vegan / vegetarian</label>
+        </div>
+        <div class="manifest-field">
+          <span class="label">Other allergens</span>
+          <input type="text" name="allergens" placeholder="List if applicable" autocomplete="off" />
+        </div>
+
+        <p class="manifest-section-title">Emergency contact</p>
+        <div class="manifest-field">
+          <span class="label">Contact name</span>
+          <input type="text" name="emergency_name" placeholder="Full name" autocomplete="name" />
+        </div>
+        <div class="manifest-field">
+          <span class="label">Relationship</span>
+          <input type="text" name="emergency_relation" placeholder="e.g. Spouse, Parent" autocomplete="off" />
+        </div>
+        <div class="manifest-field">
+          <span class="label">Phone number</span>
+          <input type="tel" name="emergency_phone" placeholder="+61 or +1 (with country code)" autocomplete="tel" />
+        </div>
+      </div>
+
+      <h3 class="subsection-title">Sign &amp; confirm</h3>
+      <p class="body-text">By signing below on <strong>29 July 2026</strong>, you confirm that you have read all five pages, understand that this is a private celebrity celebration with industry-standard security and confidentiality requirements, and agree to be bound by these terms for the Event on 25 August 2026.</p>
+
+      <div class="signature-grid">
+        <div class="signature-card signature-card--guest">
+          <h4>Guest signature</h4>
+          <p class="signature-hint">Draw your signature below using mouse or touch. It should match the signature in your U.S. passport.</p>
+          <div class="signature-pad-wrap">
+            <canvas id="guest-signature-canvas" class="signature-canvas" aria-label="Draw your signature"></canvas>
+            <div class="signature-actions no-print">
+              <button type="button" id="clear-signature">Clear signature</button>
+              <span id="signature-status" class="signature-status is-empty">Awaiting signature</span>
+            </div>
+          </div>
+          <p class="signature-print-name">Julianne Mattock</p>
+          <label class="signature-date-field">
+            Date (DD/MM/YYYY):
+            <input type="date" id="guest-signature-date" value="2026-07-29" aria-label="Signature date" />
+          </label>
+        </div>
+        <div class="signature-card">
+          <h4>Host signature</h4>
+          <div class="signature-line">
+            Authorized Representative, Endorsco Bookings AB
+            <div class="signature-note">On behalf of Alexander J. Skarsgård</div>
+          </div>
+          <p class="signature-date">Date (DD/MM/YYYY):<span class="line">29/07/2026</span></p>
+        </div>
+      </div>
+
+      <footer class="nda-footer">
+        Endorsco Bookings AB · Birthday Experience Division<br />
+        Birthday Whitelist Agreement · Ref END-NDA-2026-0729-JM · Effective 29 July 2026<br />
+        booking@endorscobookings.com · +44-7351-271379
+      </footer>
+    </section>
+
+  </article>
+
+  <script>
+    (function () {
+      var canvas = document.getElementById("guest-signature-canvas");
+      var clearBtn = document.getElementById("clear-signature");
+      var statusEl = document.getElementById("signature-status");
+      var dateInput = document.getElementById("guest-signature-date");
+      var printBtn = document.getElementById("print-document");
+      if (!canvas) return;
+
+      var ctx = canvas.getContext("2d");
+      var drawing = false;
+      var hasSignature = false;
+      var dpr = window.devicePixelRatio || 1;
+      var storageKey = "nda-guest-signature-jm";
+
+      function resizeCanvas() {
+        var snapshot = hasSignature ? canvas.toDataURL("image/png") : "";
+        var rect = canvas.getBoundingClientRect();
+        canvas.width = Math.floor(rect.width * dpr);
+        canvas.height = Math.floor(rect.height * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.lineWidth = 2.2;
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+        ctx.strokeStyle = "#e8e8e8";
+        if (snapshot) {
+          var img = new Image();
+          img.onload = function () {
+            ctx.drawImage(img, 0, 0, rect.width, rect.height);
+          };
+          img.src = snapshot;
+        }
+      }
+
+      function getPoint(event) {
+        var rect = canvas.getBoundingClientRect();
+        var clientX = event.clientX;
+        var clientY = event.clientY;
+        if (event.touches && event.touches.length) {
+          clientX = event.touches[0].clientX;
+          clientY = event.touches[0].clientY;
+        }
+        return { x: clientX - rect.left, y: clientY - rect.top };
+      }
+
+      function saveSignature() {
+        if (!hasSignature) {
+          localStorage.removeItem(storageKey);
+          return;
+        }
+        try {
+          localStorage.setItem(storageKey, canvas.toDataURL("image/png"));
+        } catch (e) { /* ignore quota errors */ }
+      }
+
+      function setSigned(signed) {
+        hasSignature = signed;
+        canvas.classList.toggle("is-signed", signed);
+        statusEl.textContent = signed ? "Signature captured" : "Awaiting signature";
+        statusEl.classList.toggle("is-empty", !signed);
+        saveSignature();
+      }
+
+      function startDraw(event) {
+        event.preventDefault();
+        drawing = true;
+        var point = getPoint(event);
+        ctx.beginPath();
+        ctx.moveTo(point.x, point.y);
+      }
+
+      function draw(event) {
+        if (!drawing) return;
+        event.preventDefault();
+        var point = getPoint(event);
+        ctx.lineTo(point.x, point.y);
+        ctx.stroke();
+        if (!hasSignature) setSigned(true);
+        else saveSignature();
+      }
+
+      function endDraw() {
+        drawing = false;
+        saveSignature();
+      }
+
+      function clearSignature() {
+        var rect = canvas.getBoundingClientRect();
+        ctx.clearRect(0, 0, rect.width, rect.height);
+        setSigned(false);
+      }
+
+      function restoreSignature() {
+        try {
+          var saved = localStorage.getItem(storageKey);
+          if (!saved) return;
+          var img = new Image();
+          img.onload = function () {
+            var rect = canvas.getBoundingClientRect();
+            ctx.drawImage(img, 0, 0, rect.width, rect.height);
+            hasSignature = true;
+            canvas.classList.add("is-signed");
+            statusEl.textContent = "Signature captured";
+            statusEl.classList.remove("is-empty");
+          };
+          img.src = saved;
+        } catch (e) { /* ignore */ }
+      }
+
+      function handlePrint() {
+        if (!hasSignature) {
+          var ok = window.confirm(
+            "Please sign in the guest signature box on Page 5 before saving. Continue without a signature?"
+          );
+          if (!ok) return;
+        }
+        window.print();
+      }
+
+      canvas.addEventListener("mousedown", startDraw);
+      canvas.addEventListener("mousemove", draw);
+      canvas.addEventListener("mouseup", endDraw);
+      canvas.addEventListener("mouseleave", endDraw);
+      canvas.addEventListener("touchstart", startDraw, { passive: false });
+      canvas.addEventListener("touchmove", draw, { passive: false });
+      canvas.addEventListener("touchend", endDraw);
+
+      clearBtn.addEventListener("click", clearSignature);
+      if (printBtn) printBtn.addEventListener("click", handlePrint);
+
+      var agreementDate = "2026-07-29";
+      if (dateInput) dateInput.value = agreementDate;
+
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
+      restoreSignature();
+    })();
+  </script>
+
+</body>
+</html>
